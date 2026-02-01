@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+       <form action="">
+        <table align="center">
+            <caption align="center"><h1>Sing</h1></caption>
+            <br>
+            <tr>
+                <td><label for="fullname">fullname</label></td>
+                <td><input type="text" name="" id="fullname" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="gmali" name="email" id="email"
+                  pattern="[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]{2,25}"  required></td>
+            </tr>
+            <tr>
+                <td><label for="mo">mobil no</label></td>
+                <td><input type="text" name="mo" id="mo"
+                    pattern="[0-9]{10}" required></td>
+            </tr>
+            <tr>
+                <td><label for="passwrod">passwrod</label></td>
+                <td><input type="text" name="passwrod" id="passwrod" 
+                   pattern="[a-zA-Z0-9]{4,10}" required></td>
+            </tr>
+            <tr>
+                <td><label for="age">age</label></td>
+                <td><input type="number" name="age" id="age" min="1" max="80"></td>
+            </tr>
+            <tr>
+                <td><label for="add">address</label></td>
+                <td><textarea name="add" id="add"></textarea></td>
+            </tr>
+             <tr>
+                <td><label for="dob">date</label></td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+             <tr>
+                <td><label for="gen">gender</label></td>
+               <td><input type="radio" name="gender" id="a">male
+                <input type="radio" name="gender" id="b">female</td>
+            </tr>
+                <tr>
+                    <td>
+                        <input type="submit">
+                    </td>
+                    <td><input type="reset" value="cancel"></td>
+                </tr>
+        </table>
+    </form>
+    </main>
+</body>
+</html>
